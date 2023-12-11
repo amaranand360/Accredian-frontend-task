@@ -1,70 +1,35 @@
-# Getting Started with Create React App
+# React Login and Sign-Up Forms
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
 
-## Available Scripts
+Create captivating and responsive user interfaces for login and sign-up forms using React. The UI should be visually appealing, intuitive, and include mandatory fields for both login and sign-up.
 
-In the project directory, you can run:
+## Requirements
 
-### `npm start`
+### 1. Login Form
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+a. **Username or Email (mandatory):** Users should be able to enter either their username or email to log in.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+b. **Password (mandatory):** Users must enter their password to complete the login process.
 
-### `npm test`
+### 2. Sign-Up Form
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+a. **Username (mandatory):** Users are required to choose a unique username for sign-up.
 
-### `npm run build`
+b. **Email (mandatory):** Users must provide a valid email address for sign-up.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+c. **Password (mandatory):** Users should create a secure password for their accounts.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+d. **Confirm Password (mandatory):** Confirm the password to avoid input errors.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### 3. Design
 
-### `npm run eject`
+a. **Material-UI Integration:** Utilize Material-UI for building components and achieving a modern and visually appealing design.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+b. **Form Validation:** Implement form validation for mandatory fields to ensure data integrity and enhance the user experience.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Getting Started
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1. **Clone the Repository:**
+   ```bash
+   git clone https://github.com/amaranand360/Accredian-frontend-task.git
