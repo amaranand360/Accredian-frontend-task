@@ -35,13 +35,14 @@ export default function Login() {
 
 
   
-  const handleSubmit = async (event, formData) => {
+  const handleSubmit = async (event) => {
     event.preventDefault();
-  
-    if (formData.password !== formData.cnfPassword) {
-      toast.error("Password does not match");
+    console.log(formData);
+    if (formData?.password !== formData?.cnfPassword) {
+      toast.error("Passwords do not match. Please make sure the entered passwords match.");
       return;
     }
+    
   
     try {
       const response = await axios.post(`https://loginsystem-bs85.onrender.com/api/users/signup`, formData, {
